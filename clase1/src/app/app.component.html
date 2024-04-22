@@ -1,0 +1,11 @@
+<div>
+  <input type="number" [(ngModel)]="edadUno" placeholder="Ingresar Edad 1: ">
+  <input type="number" [(ngModel)]="edadDos" placeholder="Ingresar Edad 2: ">
+  
+  <button (click)="calcular()">Calcular</button>
+  <button (click)="limpiar()">Limpiar</button>
+  </div>
+  
+  <p>Promedio: {{ promedio }}</p>
+  <p>Suma: {{ suma }}</p>
+  
