@@ -1,0 +1,33 @@
+<!--<h1>Ruteo</h1>
+<button routerLink="login" class="btn btn-dark m-1">Login</button>
+<button routerLink="bienvenida" class="btn btn-dark m-1">Bienvenida</button>
+<button routerLink="error" class="btn btn-dark m-1">Error</button>
+
+<hr />
+<router-outlet /> --------componente de enrutamiento ?
+<hr /> -->
+
+<!-- Contenedor principal -->
+<div class="container">
+
+    <!-- Encabezado -->
+    <h1>Ruteo</h1>
+  
+    <!-- Botones de navegación -->
+    <div class="button-container">
+      <button routerLink="registro" class="btn btn-dark">Registro</button>
+      <button routerLink="login" class="btn btn-dark">Login</button>
+      <button routerLink="bienvenida" class="btn btn-dark">Bienvenida</button>
+      <button routerLink="error" class="btn btn-dark">Error</button>
+    </div>
+  
+    <!-- Línea separadora -->
+    <hr />
+  
+    <!-- Componente de enrutamiento -->
+    <router-outlet></router-outlet>
+  
+    <!-- Línea separadora -->
+    <hr />
+  
+  </div>
